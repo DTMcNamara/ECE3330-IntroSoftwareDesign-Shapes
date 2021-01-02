@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Circle</OriginalElement>
+  <nodes>
+    <node x="790.0" y="592.0">Circle</node>
+    <node x="255.75000000000006" y="325.0">ThreeDimensionalShape.ThreeDimensionalInterface</node>
+    <node x="0.0" y="537.0">Tetrahedron</node>
+    <node x="714.5" y="0.0">Shape</node>
+    <node x="316.00000000000006" y="180.0">ThreeDimensionalShape</node>
+    <node x="1211.0" y="592.0">Triangle</node>
+    <node x="0.0" y="877.0">ShapesTestMain</node>
+    <node x="997.0" y="592.0">Square</node>
+    <node x="285.00000000000006" y="559.0">Sphere</node>
+    <node x="542.0" y="559.0">Cube</node>
+    <node x="928.25" y="347.0">TwoDimensionalShape.TwoDimensionalShapeInterface</node>
+    <node x="1009.5" y="191.0">TwoDimensionalShape</node>
+    <node x="700.9479166666667" y="79.0">Shape.shapeInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Triangle" target="TwoDimensionalShape.TwoDimensionalShapeInterface">
+      <point x="-50.0" y="-92.5" />
+      <point x="1261.0" y="507.0" />
+      <point x="1106.5833333333335" y="507.0" />
+      <point x="71.33333333333331" y="59.0" />
+    </edge>
+    <edge source="Square" target="TwoDimensionalShape.TwoDimensionalShapeInterface">
+      <point x="-48.5" y="-92.5" />
+      <point x="1045.5" y="517.0" />
+      <point x="1035.25" y="517.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Square" target="TwoDimensionalShape">
+      <point x="48.5" y="-92.5" />
+      <point x="1142.5" y="517.0" />
+      <point x="1152.75" y="517.0" />
+      <point x="1152.75" y="305.0" />
+      <point x="1115.125" y="305.0" />
+      <point x="21.125" y="36.5" />
+    </edge>
+    <edge source="Circle" target="TwoDimensionalShape.TwoDimensionalShapeInterface">
+      <point x="46.75" y="-92.5" />
+      <point x="930.25" y="517.0" />
+      <point x="963.9166666666667" y="517.0" />
+      <point x="-71.33333333333331" y="59.0" />
+    </edge>
+    <edge source="Tetrahedron" target="ThreeDimensionalShape">
+      <point x="-66.25" y="-147.5" />
+      <point x="66.25" y="517.0" />
+      <point x="82.10000000000014" y="517.0" />
+      <point x="82.10000000000014" y="305.0" />
+      <point x="337.87500000000006" y="305.0" />
+      <point x="-65.625" y="47.5" />
+    </edge>
+    <edge source="Circle" target="TwoDimensionalShape">
+      <point x="-46.75" y="-92.5" />
+      <point x="836.75" y="295.0" />
+      <point x="1030.625" y="295.0" />
+      <point x="-63.375" y="36.5" />
+    </edge>
+    <edge source="ThreeDimensionalShape.ThreeDimensionalInterface" target="ThreeDimensionalShape">
+      <point x="1.1368683772161603E-13" y="-81.0" />
+      <point x="350.75000000000017" y="305.0" />
+      <point x="381.62500000000006" y="305.0" />
+      <point x="-21.875" y="47.5" />
+    </edge>
+    <edge source="TwoDimensionalShape" target="Shape.shapeInterface">
+      <point x="-42.25" y="-36.5" />
+      <point x="1051.75" y="155.0" />
+      <point x="813.4479166666667" y="155.0" />
+      <point x="37.5" y="25.5" />
+    </edge>
+    <edge source="Triangle" target="TwoDimensionalShape">
+      <point x="50.0" y="-92.5" />
+      <point x="1361.0" y="295.0" />
+      <point x="1157.375" y="295.0" />
+      <point x="63.375" y="36.5" />
+    </edge>
+    <edge source="ThreeDimensionalShape" target="Shape.shapeInterface">
+      <point x="43.750000000000114" y="-47.5" />
+      <point x="447.25000000000017" y="155.0" />
+      <point x="738.4479166666667" y="155.0" />
+      <point x="-37.5" y="25.5" />
+    </edge>
+    <edge source="Sphere" target="ThreeDimensionalShape.ThreeDimensionalInterface">
+      <point x="-59.25" y="-125.5" />
+      <point x="344.25000000000006" y="517.0" />
+      <point x="350.75000000000006" y="517.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="ThreeDimensionalShape" target="Shape">
+      <point x="-43.749999999999886" y="-47.5" />
+      <point x="359.75000000000017" y="155.0" />
+      <point x="379.50000000000017" y="155.0" />
+      <point x="379.50000000000017" y="54.0" />
+      <point x="727.8333333333335" y="54.0" />
+      <point x="-26.66666666666663" y="14.5" />
+    </edge>
+    <edge source="TwoDimensionalShape" target="Shape">
+      <point x="42.25" y="-36.5" />
+      <point x="1136.25" y="155.0" />
+      <point x="1118.0" y="155.0" />
+      <point x="1118.0" y="54.0" />
+      <point x="781.1666666666667" y="54.0" />
+      <point x="26.66666666666663" y="14.5" />
+    </edge>
+    <edge source="Sphere" target="ThreeDimensionalShape">
+      <point x="59.25" y="-125.5" />
+      <point x="462.75000000000006" y="517.0" />
+      <point x="456.25000000000006" y="517.0" />
+      <point x="456.25000000000006" y="305.0" />
+      <point x="425.37500000000017" y="305.0" />
+      <point x="21.875000000000114" y="47.5" />
+    </edge>
+    <edge source="Cube" target="ThreeDimensionalShape">
+      <point x="57.0" y="-125.5" />
+      <point x="713.0" y="305.0" />
+      <point x="469.12500000000017" y="305.0" />
+      <point x="65.62500000000011" y="47.5" />
+    </edge>
+    <edge source="TwoDimensionalShape.TwoDimensionalShapeInterface" target="TwoDimensionalShape">
+      <point x="0.0" y="-59.0" />
+      <point x="1035.25" y="305.0" />
+      <point x="1072.875" y="305.0" />
+      <point x="-21.125" y="36.5" />
+    </edge>
+    <edge source="Tetrahedron" target="ThreeDimensionalShape.ThreeDimensionalInterface">
+      <point x="66.25" y="-147.5" />
+      <point x="198.75" y="517.0" />
+      <point x="287.4166666666667" y="517.0" />
+      <point x="-63.33333333333337" y="81.0" />
+    </edge>
+    <edge source="Shape.shapeInterface" target="Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="775.9479166666667" y="54.0" />
+      <point x="754.5" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Cube" target="ThreeDimensionalShape.ThreeDimensionalInterface">
+      <point x="-57.0" y="-125.5" />
+      <point x="599.0" y="507.0" />
+      <point x="414.0833333333334" y="507.0" />
+      <point x="63.33333333333337" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="851.5714285714284" y="530.4285714285713" />
+  <SelectedNodes>
+    <node>Circle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
